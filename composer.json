@@ -1,0 +1,21 @@
+{
+    "name": "disaytid/bitrix24-sdk",
+    "description": "Bitrix24 PHP SDK",
+    "type": "library",
+    "require": {
+        "ext-curl": "^7.2",
+        "php": ">=7.0"
+    },
+    "license": "GNU GPL",
+    "authors": [
+        {
+            "name": "Boris Stelmakh",
+            "email": "mikael.chip@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Disaytid": "src/"
+        }
+    }
+}
