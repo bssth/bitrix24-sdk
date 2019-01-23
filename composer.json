@@ -1,5 +1,5 @@
 {
-    "name": "disaytid/bitrix24-sdk",
+    "name": "mikechip/bitrix24-sdk",
     "description": "Bitrix24 PHP SDK",
     "type": "library",
     "require": {
