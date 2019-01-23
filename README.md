@@ -8,4 +8,4 @@
 
 Поддерживается установка через Composer:
 
-<code>composer require disaytid/bitrix24-sdk</code>
+<code>composer require mikechip/bitrix24-sdk</code>
