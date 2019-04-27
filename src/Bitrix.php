@@ -1,23 +1,24 @@
 <?php
 
-namespace Disaytid;
+namespace Mike4ip;
 
 /**
  * Для работы с API нужно создать входящий webhook в разделе Приложения, передав при создании
  * объекта токен и URL
  *
  * Class Bitrix
- * @package Disaytid
+ * @package Mike4ip
  */
 class Bitrix
 {
     /**
-     * Webhook
+     * Webhook token
      * @var string
      */
     protected $token;
 
     /**
+     * Webhook URL
      * @var string
      */
     protected $api_url;

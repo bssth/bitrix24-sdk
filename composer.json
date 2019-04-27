@@ -2,10 +2,18 @@
     "name": "mikechip/bitrix24-sdk",
     "description": "Bitrix24 PHP SDK",
     "type": "library",
+    "version": "1.1.0",
     "require": {
         "ext-curl": "^7.2",
-        "php": ">=7.0"
+        "php": ">=7.2",
+        "ext-json": "^1.6"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/mikechip/bitrix24-sdk"
+        }
+    ],
     "license": "GPL-3.0-or-later",
     "authors": [
         {
@@ -14,8 +22,6 @@
         }
     ],
     "autoload": {
-        "psr-0": {
-            "Disaytid": "src/"
-        }
+        "classmap": ["src/Bitrix.php"]
     }
 }

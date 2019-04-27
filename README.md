@@ -9,3 +9,6 @@
 Поддерживается установка через Composer:
 
 <code>composer require mikechip/bitrix24-sdk</code>
+
+## Feedback
+Используйте **Issues**, автор всегда на проводе
